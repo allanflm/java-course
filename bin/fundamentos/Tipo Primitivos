@@ -1,0 +1,26 @@
+Tipo primitivos (aula 25):
+
+	- 1 byte == 8 bits
+	- Em java temos 8 tipos.
+	
+	- Numericos
+		- Inteiros: byte(1 byte) | short(2 bytes) | Int(4 bytes) | Long(8 bytes)
+ 					byte -> -128 até + 127
+ 					...
+ 		- Com ponto flutuante: float (4 bytes) | double (8 bytes)
+ 	
+ 	char: representa uma letra -> 'A'
+ 	boolean -> true ou false
+ 	
+ 	Exemplo:
+ 		
+ 		double a = 3; -> por padrao vai ser do tipo int
+ 		double b = 3.2; -> por padrao vai ser do tipo double
+ 		
+ 	Conversão:
+ 		int -> double // pode
+ 		double -> int // nao pode
+ 		
+ 	-> Por padrão criamos variaveis:
+ 		int -> para numeros inteiros.
+ 		double -> para numeros com ponto flutuante.
